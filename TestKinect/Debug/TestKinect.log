@@ -1,0 +1,23 @@
+﻿Build started 19/11/2019 06:59:14 p.m..
+     1>Project "C:\Users\Sys\Desktop\TestKinect\TestKinect\TestKinect.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\TestKinect.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Sys\Desktop\TestKinect\Librería SerialClass\SerialClass" /I"C:\Users\jose de jesus\Desktop\SDL-1.2.15\include" /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\/inc" /I"C:\Users\ArmandoAntonio\Desktop\ProyectoIncendio\SDL-devel-1.2.15-VC\SDL-1.2.15\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TestKinect.cpp
+         TestKinect.cpp
+     1>c:\users\sys\desktop\testkinect\testkinect\testkinect.cpp(53): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sys\Desktop\TestKinect\Debug\TestKinect.exe" /NOLOGO /LIBPATH:"C:\Users\Sys\Desktop\TestKinect\SDL-1.2.15\lib\x86" /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86" /LIBPATH:"C:\Users\ArmandoAntonio\Desktop\ProyectoIncendio\SDL-devel-1.2.15-VC\SDL-1.2.15\lib\x86" SDL.lib SDLmain.lib kinect10.lib opengl32.lib glu32.lib SDL.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestKinect.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sys\Desktop\TestKinect\Debug\TestKinect.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sys\Desktop\TestKinect\Debug\TestKinect.lib" /MACHINE:X86 Debug\SerialClass.obj
+         Debug\TestKinect.obj
+         LINK : C:\Users\Sys\Desktop\TestKinect\Debug\TestKinect.exe not found or not built by the last incremental link; performing full link
+         TestKinect.vcxproj -> C:\Users\Sys\Desktop\TestKinect\Debug\TestKinect.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Sys\Desktop\TestKinect\Debug\TestKinect.exe;#1" /manifest Debug\TestKinect.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\TestKinect.unsuccessfulbuild".
+         Touching "Debug\TestKinect.lastbuildstate".
+     1>Done Building Project "C:\Users\Sys\Desktop\TestKinect\TestKinect\TestKinect.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.96
