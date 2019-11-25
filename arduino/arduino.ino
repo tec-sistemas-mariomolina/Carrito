@@ -1,7 +1,6 @@
 const byte Led = 10; 
 byte nPWM;
 String comando="";
-//int npwm = 0;
 char A;
 char caracter;
 void setup()
@@ -12,7 +11,7 @@ void setup()
   digitalWrite(Led, HIGH);
   delay(1000);
 digitalWrite(Led, LOW);
-  delay(1000);+
+  delay(1000);
   
 }
 void loop()
